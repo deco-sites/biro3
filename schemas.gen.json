@@ -13,7 +13,7 @@
         }
       }
     },
-    "ZGVjby1zaXRlcy9zdGFydC9mdW5jdGlvbnMvTG9hZEdpdEh1YlJhdy50cw==@Props": {
+    "ZGVjby1zaXRlcy9iaXJvMy9mdW5jdGlvbnMvTG9hZEdpdEh1YlJhdy50cw==@Props": {
       "type": "object",
       "properties": {
         "repo": {
@@ -37,7 +37,7 @@
         "branch",
         "path"
       ],
-      "title": "deco-sites/start/functions/LoadGitHubRaw.ts@Props"
+      "title": "deco-sites/biro3/functions/LoadGitHubRaw.ts@Props"
     },
     "ZGVjby1jeC9saXZlL2Jsb2Nrcy9mbGFnLnRz@Flag": {
       "$ref": "#/root/flags"
@@ -147,7 +147,7 @@
       ],
       "title": "deco-cx/live/pages/LivePage.tsx@Props"
     },
-    "ZGVjby1zaXRlcy9zdGFydC9zZWN0aW9ucy9IZWFkLnRzeA==@Props": {
+    "ZGVjby1zaXRlcy9iaXJvMy9zZWN0aW9ucy9IZWFkLnRzeA==@Props": {
       "type": "object",
       "properties": {
         "title": {
@@ -191,9 +191,9 @@
         "styleUrls",
         "themeColor"
       ],
-      "title": "deco-sites/start/sections/Head.tsx@Props"
+      "title": "deco-sites/biro3/sections/Head.tsx@Props"
     },
-    "ZGVjby1zaXRlcy9zdGFydC9zZWN0aW9ucy9HZXRTdGFydGVkLnRzeA==@Props": {
+    "ZGVjby1zaXRlcy9iaXJvMy9zZWN0aW9ucy9HZXRTdGFydGVkLnRzeA==@Props": {
       "type": "object",
       "properties": {
         "enableInspectVSCode": {
@@ -205,7 +205,7 @@
         }
       },
       "required": [],
-      "title": "deco-sites/start/sections/GetStarted.tsx@Props"
+      "title": "deco-sites/biro3/sections/GetStarted.tsx@Props"
     },
     "ZGVjby1jeC9saXZlL3NlY3Rpb25zL1BhZ2VJbmNsdWRlLnRzeA==@Props": {
       "type": "object",
@@ -396,12 +396,12 @@
       "required": [],
       "title": "deco-cx/live/flags/everyone.ts@EveryoneConfig"
     },
-    "ZGVjby1zaXRlcy9zdGFydC9mdW5jdGlvbnMvTG9hZEdpdEh1YlJhdy50cw==": {
-      "title": "deco-sites/start/functions/LoadGitHubRaw.ts",
+    "ZGVjby1zaXRlcy9iaXJvMy9mdW5jdGlvbnMvTG9hZEdpdEh1YlJhdy50cw==": {
+      "title": "deco-sites/biro3/functions/LoadGitHubRaw.ts",
       "type": "object",
       "allOf": [
         {
-          "$ref": "#/definitions/ZGVjby1zaXRlcy9zdGFydC9mdW5jdGlvbnMvTG9hZEdpdEh1YlJhdy50cw==@Props"
+          "$ref": "#/definitions/ZGVjby1zaXRlcy9iaXJvMy9mdW5jdGlvbnMvTG9hZEdpdEh1YlJhdy50cw==@Props"
         }
       ],
       "required": [
@@ -411,9 +411,9 @@
         "__resolveType": {
           "type": "string",
           "enum": [
-            "deco-sites/start/functions/LoadGitHubRaw.ts"
+            "deco-sites/biro3/functions/LoadGitHubRaw.ts"
           ],
-          "default": "deco-sites/start/functions/LoadGitHubRaw.ts"
+          "default": "deco-sites/biro3/functions/LoadGitHubRaw.ts"
         }
       }
     },
@@ -522,12 +522,12 @@
         }
       }
     },
-    "ZGVjby1zaXRlcy9zdGFydC9zZWN0aW9ucy9IZWFkLnRzeA==": {
-      "title": "deco-sites/start/sections/Head.tsx",
+    "ZGVjby1zaXRlcy9iaXJvMy9zZWN0aW9ucy9IZWFkLnRzeA==": {
+      "title": "deco-sites/biro3/sections/Head.tsx",
       "type": "object",
       "allOf": [
         {
-          "$ref": "#/definitions/ZGVjby1zaXRlcy9zdGFydC9zZWN0aW9ucy9IZWFkLnRzeA==@Props"
+          "$ref": "#/definitions/ZGVjby1zaXRlcy9iaXJvMy9zZWN0aW9ucy9IZWFkLnRzeA==@Props"
         }
       ],
       "required": [
@@ -537,18 +537,18 @@
         "__resolveType": {
           "type": "string",
           "enum": [
-            "deco-sites/start/sections/Head.tsx"
+            "deco-sites/biro3/sections/Head.tsx"
           ],
-          "default": "deco-sites/start/sections/Head.tsx"
+          "default": "deco-sites/biro3/sections/Head.tsx"
         }
       }
     },
-    "ZGVjby1zaXRlcy9zdGFydC9zZWN0aW9ucy9HZXRTdGFydGVkLnRzeA==": {
-      "title": "deco-sites/start/sections/GetStarted.tsx",
+    "ZGVjby1zaXRlcy9iaXJvMy9zZWN0aW9ucy9HZXRTdGFydGVkLnRzeA==": {
+      "title": "deco-sites/biro3/sections/GetStarted.tsx",
       "type": "object",
       "allOf": [
         {
-          "$ref": "#/definitions/ZGVjby1zaXRlcy9zdGFydC9zZWN0aW9ucy9HZXRTdGFydGVkLnRzeA==@Props"
+          "$ref": "#/definitions/ZGVjby1zaXRlcy9iaXJvMy9zZWN0aW9ucy9HZXRTdGFydGVkLnRzeA==@Props"
         }
       ],
       "required": [
@@ -558,9 +558,9 @@
         "__resolveType": {
           "type": "string",
           "enum": [
-            "deco-sites/start/sections/GetStarted.tsx"
+            "deco-sites/biro3/sections/GetStarted.tsx"
           ],
-          "default": "deco-sites/start/sections/GetStarted.tsx"
+          "default": "deco-sites/biro3/sections/GetStarted.tsx"
         }
       }
     },
@@ -807,7 +807,7 @@
           "$ref": "#/definitions/Resolvable"
         },
         {
-          "$ref": "#/definitions/ZGVjby1zaXRlcy9zdGFydC9mdW5jdGlvbnMvTG9hZEdpdEh1YlJhdy50cw=="
+          "$ref": "#/definitions/ZGVjby1zaXRlcy9iaXJvMy9mdW5jdGlvbnMvTG9hZEdpdEh1YlJhdy50cw=="
         }
       ]
     },
@@ -849,10 +849,10 @@
           "$ref": "#/definitions/Resolvable"
         },
         {
-          "$ref": "#/definitions/ZGVjby1zaXRlcy9zdGFydC9zZWN0aW9ucy9IZWFkLnRzeA=="
+          "$ref": "#/definitions/ZGVjby1zaXRlcy9iaXJvMy9zZWN0aW9ucy9IZWFkLnRzeA=="
         },
         {
-          "$ref": "#/definitions/ZGVjby1zaXRlcy9zdGFydC9zZWN0aW9ucy9HZXRTdGFydGVkLnRzeA=="
+          "$ref": "#/definitions/ZGVjby1zaXRlcy9iaXJvMy9zZWN0aW9ucy9HZXRTdGFydGVkLnRzeA=="
         },
         {
           "$ref": "#/definitions/JGxpdmUvc2VjdGlvbnMvUGFnZUluY2x1ZGUudHN4"
