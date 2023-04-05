@@ -522,6 +522,22 @@
         }
       }
     },
+    "ZGVjby1zaXRlcy9iaXJvMy9zZWN0aW9ucy9MYXRlc3RQb3N0LnRzeA==": {
+      "title": "deco-sites/biro3/sections/LatestPost.tsx",
+      "type": "object",
+      "required": [
+        "__resolveType"
+      ],
+      "properties": {
+        "__resolveType": {
+          "type": "string",
+          "enum": [
+            "deco-sites/biro3/sections/LatestPost.tsx"
+          ],
+          "default": "deco-sites/biro3/sections/LatestPost.tsx"
+        }
+      }
+    },
     "ZGVjby1zaXRlcy9iaXJvMy9zZWN0aW9ucy9IZWFkLnRzeA==": {
       "title": "deco-sites/biro3/sections/Head.tsx",
       "type": "object",
@@ -847,6 +863,9 @@
       "anyOf": [
         {
           "$ref": "#/definitions/Resolvable"
+        },
+        {
+          "$ref": "#/definitions/ZGVjby1zaXRlcy9iaXJvMy9zZWN0aW9ucy9MYXRlc3RQb3N0LnRzeA=="
         },
         {
           "$ref": "#/definitions/ZGVjby1zaXRlcy9iaXJvMy9zZWN0aW9ucy9IZWFkLnRzeA=="
